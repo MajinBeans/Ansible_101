@@ -1,0 +1,6 @@
+---
+  - hosts: webservers
+    become: true
+    tasks:
+      - name: uninstall httpd
+        dnf: name=httpd state=absent

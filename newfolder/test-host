@@ -1,0 +1,6 @@
+# test-hosts
+[webservers]
+server1 ansible_host=54.152.189.13
+
+[local]
+control ansible_connection=local
