@@ -1,6 +1,0 @@
----
-  - hosts: all
-    tasks:
-      - name: get the OS of each host
-        shell: uname
-        changed_when: False

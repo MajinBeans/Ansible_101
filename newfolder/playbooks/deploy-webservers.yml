@@ -1,4 +1,0 @@
----
-  - import_playbook: update-packages.yml
-  - import_playbook: setup-httpd.yml
-  - import_playbook: start-httpd.yml

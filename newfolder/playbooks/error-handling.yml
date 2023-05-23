@@ -1,6 +1,0 @@
----
-  - hosts: webservers
-    tasks:
-      - name: check the status of httpd
-        command: service httpd status
-        changed_when: false

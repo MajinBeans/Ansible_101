@@ -1,9 +1,0 @@
----
-  - hosts: local
-    tasks:
-
-      - name: create simple html file
-        lineinfile:
-          create: yes
-          path: ./NEWFILE.txt
-          line: <html>Hello from server1</hmtl>
